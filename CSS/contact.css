@@ -140,19 +140,23 @@
     width: 50%;
     border-radius: 40px;
 }
-
+.box-left textarea{
+    width: 90%;
+    height: 90%;
+    color: #000;
+    font-style: 14px;
+    font-size: 20px;
+    /* 去除边框 */
+    border: none;
+    resize: none;
+    /* 去除选中后的边框 */
+    outline:none;
+    display:block;
+    margin: 20px auto
+}
 .box-left h2 {
     font: 900 50px '';
     margin: 50px 40px 40px;
-}
-
-.box-left span {
-    display: block;
-    color: #999;
-    font-style: 14px;
-    margin: 40px;
-    font-size: 26px;
-    line-height: 50px;
 }
 
 .box-right {
@@ -165,7 +169,7 @@
 .form {
     margin: 40px;
     position: absolute;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 label {
